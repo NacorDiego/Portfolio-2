@@ -1,10 +1,139 @@
-.header{}
-.header .h1{}
-.header .h1 .a{}
-.header .nav{}
-.header .nav .ul{}
-.header .nav .ul .li{}
-.header .nav .ul .li .a{}
+.header{
+    width: 100%;
+    min-height: 5em;
+    background: lightblue;
 
-/* 38:09min */
+    padding: 1em 2em;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .h1{
+}
+.header .h1 .a{}
+.header .nav{
+}
+.header .ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .li{
+    margin: 0 1em;
+}
+.header .li .a{}
+
+.main{
+    background: lightgrey;
+    margin: 1em 0;
+    text-align: center;
+}
+
+.seccion{
+    width: 100%;
+    min-height: 80vh;
+    background: lightblue;
+    margin: 1em 0;
+    padding: 2em;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.seccion .circulos{}
+.seccion .circulo{}
+.seccion .ul{}
+.seccion .ul .li{}
+.seccion .ul .a{}
+.seccion .h2{}
+.seccion .h3{}
+
+.seccion .p{}
+.seccion .grid{
+    width: 90%;
+    max-width: 40em;
+    background: lightcoral;
+    margin: 1em 0;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 1em;
+}
+.seccion .article{
+    width: 100%;
+    min-height: 20vh;
+    background: lightgreen;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+.seccion .a{}
+.seccion .figure{
+    width: 100%;
+    background-color: red;
+}
+.seccion .img{
+    width: 100%;
+    background: lime;
+}
+.seccion .h4{
+    width: 100%;
+    height: 50%;
+    background: coral;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-mi{}
+.sobre-mi .h2{
+    margin: 0 0 1rem;
+}
+.sobre-mi .p{
+    max-width: 40em;
+    background: lime;
+    margin: 0 0 1em;
+    text-align: left;
+}
+.sobre-mi .rrss{
+    width: 100%;
+    background: lightgreen;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.sobre-mi .li{
+    background: orange;
+    margin: 0 1em;
+}
+.sobre-mi .a{}
+.sobre-mi .svg{
+    width: 3em;
+    height: 3em;
+    background-color: red;
+}
+
+.footer{
+    background: lightpink;
+    padding: 2em 0;
+    text-align: center;
+}
+.footer .span{}
+
+/* 1:00:31min */
 /* https://www.youtube.com/watch?v=XAwXz2w3vlg */
